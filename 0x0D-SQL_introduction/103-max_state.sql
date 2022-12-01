@@ -1,2 +1,2 @@
-SELECT temperatures.state, MAX(temperatures.value) FROM temperatures GROUP BY temperatures.state ORDER BY temperatures.state;
+SELECT state, MAX(value) as max_temp FROM temperatures GROUP BY state ORDER BY state;
 
